@@ -4,8 +4,8 @@ exports.seed = function(knex, Promise) {
       return Promise.all([
         knex('calendar').insert([
           {
-            title: 'Alarm'
-            description: 'to wake up'
+            title: 'Alarm',
+            description: 'to wake up',
             start: '9:00AM',
             end: '10:30AM',
           },

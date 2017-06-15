@@ -33,7 +33,6 @@ addEvent = (title, description, start, end) => {
  };
 
 appendEvent = (title, description, start, end, id) => {
-  console.log(title, description, start, end, id)
   const $eventCard = $('ul');
   $eventCard.prepend(
     `<li class='event-list'>

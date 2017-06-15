@@ -1,9 +1,5 @@
 @import url('./eventcard.css');
-
-body {
-  font-family: serif;
-  font-size: 13px;
-}
+@import url('./calendar.css');
 
 .main {
   display: flex;
@@ -12,14 +8,6 @@ body {
   background-color: #D3D3D3;
 }
 
-.calendar {
-  text-align: right;
-  background-color: white;
-  padding-right: 5px;
-}
-
-.events {
-  width: 90%;
-  height: 100%;
-  background-color: grey;
+.info {
+  margin: 5px 0;
 }

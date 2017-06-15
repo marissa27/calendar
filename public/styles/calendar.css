@@ -1,0 +1,25 @@
+.calendar {
+  text-align: right;
+  background-color: white;
+  padding-right: 5px;
+}
+
+.events {
+  width: 90%;
+  height: 100%;
+  background-color: grey;
+}
+
+.hour,
+.half {
+  font-family: sans-serif;
+  margin: 15px 0;
+}
+
+.hour {
+  font-size: 12px;
+}
+
+.half {
+  font-size: 10px;
+}

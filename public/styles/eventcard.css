@@ -1,5 +1,6 @@
 li {
   list-style-type: none;
+  font-family: serif;
 }
 
 .event-list {
