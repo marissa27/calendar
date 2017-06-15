@@ -1,3 +1,5 @@
+@import url('./eventcard.css');
+
 body {
   font-family: serif;
   font-size: 13px;
@@ -5,8 +7,8 @@ body {
 
 .main {
   display: flex;
-  width: 100%;
-  height: 100%;
+  width: 90%;
+  height: 90%;
   background-color: #D3D3D3;
 }
 

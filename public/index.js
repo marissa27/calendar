@@ -33,10 +33,16 @@ addEvent = (title, description, start, end) => {
  };
 
 appendEvent = (title, description, start, end, id) => {
-  const $itemCard = $('ul');
-  $itemCard.prepend(
-    `<li data-id='${id}' class='garage-list-item ${start}'>${title}</li>`
-  );
+  console.log(title, description, start, end, id)
+  const $eventCard = $('ul');
+  $eventCard.prepend(
+    `<li class='event-list'>
+      <div class='card'>
+        <h5 class='title'>${title}</h5>
+        <h6 class='description'>${description}</h6>
+      </div>
+    </li>`
+  )
 };
 
 $('.submit').on('click', (e) => {
